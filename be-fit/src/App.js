@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import logo from './sun_yoga.jpg';
 import './App.css';
-import Select from 'react-select';
+import Map from './Map';
 import Activities from './components/Activities';
 import OutdoorIndoor from './components/OutdoorIndoor';
 import Food from './components/Food';
@@ -28,7 +28,8 @@ class App extends Component {
 
                 <h2>Search for a place fits you best in your city</h2>
 
-                <p>Have a try! How fit are you? How fit is your city? Where can you do your favourite Sport and get the yummiest food?</p>
+                <p>Have a try! How fit are you? How fit is your city? Where can you do your favourite Sport and get the
+                    yummiest food?</p>
 
                 <div className="container">
                     <div className="form-group">
@@ -48,15 +49,17 @@ class App extends Component {
                             <Health label="Your most important medical care"/>
                         </div>
                     </div>
+
                 </div>
+                <div className="container">
+                    <Map />
+                </div>
+
             </div>
+
 
         );
     }
 }
 
-
 export default App;
-
-
-
