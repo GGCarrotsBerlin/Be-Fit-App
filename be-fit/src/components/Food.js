@@ -34,11 +34,10 @@ var FoodField = React.createClass({
         var options = FOOD;
         return (
             <div className="section">
-                <h3 className="section-heading">{this.props.label}</h3>
+                <label className="select-label">{this.props.label}</label>
                 <Select ref="stateSelect" autofocus options={options} simpleValue clearable={this.state.clearable}
-                        name="selected-state" disabled={this.state.disabled} value={this.state.selectValue}
+                        name="selected-food" disabled={this.state.disabled} value={this.state.selectValue}
                         onChange={this.updateValue}/>
-
             </div>
         );
     }

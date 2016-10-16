@@ -6,7 +6,8 @@ const ACTIVITIES = [
     {value: '1', label: 'Crazy about crossfit'},
     {value: '2', label: "I'm a muscle man/woman"},
     {value: '3', label: 'Call me spider'},
-    {value: 'western-4', label: "I've got gills"}
+    {value: '4', label: "I've got gills"},
+    {value: '5', label: "Fight fight fight!!!"}
 ];
 
 var ActivitiesField = React.createClass({
@@ -14,10 +15,12 @@ var ActivitiesField = React.createClass({
     propTypes: {
         label: React.PropTypes.string,
         searchable: React.PropTypes.bool,
+        onSelect: React.PropTypes.func
+
     },
     getDefaultProps () {
         return {
-            label: 'What is your favorite sports?'
+            label: 'Sport'
         };
     },
     getInitialState () {
@@ -34,20 +37,14 @@ var ActivitiesField = React.createClass({
             selectValue: newValue
         });
     },
-    toggleCheckbox (e) {
-        let newState = {};
-        newState[e.target.name] = e.target.checked;
-        this.setState(newState)
-    },
     render () {
         var options = ACTIVITIES;
         return (
             <div className="section">
-                <h3 className="section-heading">{this.props.label}</h3>
-                <Select ref="stateSelect" autofocus options={options} simpleValue clearable={this.state.clearable}
-                        name="selected-state" disabled={this.state.disabled} value={this.state.selectValue}
+                <label className="select-label">{this.props.label}</label>
+                <Select ref="activitiesSelect" autofocus options={options} simpleValue clearable={this.state.clearable}
+                        name={"selected-activity"} disabled={this.state.disabled} value={this.state.selectValue}
                         onChange={this.updateValue}/>
-
             </div>
         );
     }
