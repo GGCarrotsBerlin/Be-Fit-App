@@ -41,7 +41,7 @@ var ActivitiesField = React.createClass({
                 <label className="select-label">{this.props.label}</label>
                 <Select ref="activitiesSelect" autofocus options={options} simpleValue clearable={this.state.clearable}
                         name="selected-activity" disabled={this.state.disabled} value={this.state.selectValue}
-                        onChange={this.updateValue}/>
+                        onChange={this.props.onSelect}/>
 
             </div>
         );
