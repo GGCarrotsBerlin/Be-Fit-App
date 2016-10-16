@@ -1,0 +1,90 @@
+[
+  {
+    "question_key": "outdoor",
+    "question_text": "How crazy are you about outdoor sports?",
+    "answers": [
+      {
+        "answer_key": 0,
+        "answer_text": "Why would I go outside?"
+      },
+      {
+        "answer_key": 1,
+        "answer_text": "If the sun is shining and birds are flying..."
+      },
+      {
+        "answer_key": 2,
+        "answer_text": "There is no bad weather, only bad clothing!"
+      }
+    ]
+  },
+  {
+    "question_key": "sports",
+    "question_text": "What is your favorite sports?",
+    "answers": [
+      {
+        "answer_key": 0,
+        "answer_text": "Yoga like Yoda"
+      },
+      {
+        "answer_key": 1,
+        "answer_text": "Crazy about crossfit"
+      },
+      {
+        "answer_key": 2,
+        "answer_text": "She's like a dancing queen"
+      },
+      {
+        "answer_key": 3,
+        "answer_text": "Call me spider"
+      },
+      {
+        "answer_key": 4,
+        "answer_text": "I've got gills"
+      },
+      {
+        "answer_key": 5,
+        "answer_text": "Fight fight fight!!!"
+      }
+    ]
+  },
+  {
+    "question_key": "food",
+    "question_text": "Are you a food nerd?",
+    "answers": [
+      {
+        "answer_key": 0,
+        "answer_text": "I prefer veggie"
+      },
+      {
+        "answer_key": 1,
+        "answer_text": "Vegan level 5. Never eat anything that casts a shadow"
+      },
+      {
+        "answer_key": 2,
+        "answer_text": "Paleo carnivore hipster"
+      },
+      {
+        "answer_key": 3,
+        "answer_text": "I eat everything mummy serves"
+      }
+    ]
+  },
+  {
+    "question_key": "medicine",
+    "question_text": "Your most important medical care",
+    "answers": [
+      {
+        "answer_key": 0,
+        "answer_text": "My skin is my castle"
+      },
+      {
+        "answer_key": 1,
+        "answer_text": "I'm so sporty, I need an orthopedic on speed dial"
+      },
+      {
+        "answer_key": 2,
+        "answer_text": "I know homeopathy is placebo but as long as it works ..."
+      }
+    ]
+  }
+]

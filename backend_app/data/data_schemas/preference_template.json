@@ -1,0 +1,14 @@
+//PUT _template/hacklikeagirl_preference_index
+{
+  "template": "hacklikeagirl_preference*",
+  "mappings": {
+    "place": {
+      "properties": {
+        "location": {
+          "type": "geo_point",
+          "lat_lon": true
+        }
+      }
+    }
+  }
+}

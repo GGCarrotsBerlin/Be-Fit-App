@@ -1,0 +1,113 @@
+swagger: '2.0'
+
+info:
+  version: "1.0.0"
+  title: ToBeDefined
+  description: ToBeDefined
+
+host: "192.168.194.48:5050"
+schemes: ["http"]
+
+consumes:
+- application/json
+produces:
+- application/json
+
+paths:
+  /recommended_locations:
+    post:
+      summary: Gets locations recommended for a user
+      description: |
+        Gets recommended locations based on users preferences regarding helath and fitness
+      parameters:
+        - $ref: '#/parameters/pageSize'
+        - name: Preferences
+          in: body
+          description: User's preferences
+          schema:
+            $ref: "#/definitions/Preference"
+      responses:
+        200:
+          description: Recommended locations
+          schema:
+            type: array
+            items:
+              $ref: "#/definitions/Locations"
+        400:
+          description: 'Requested objects could not be found. More information in accompanying message.'
+
+parameters:
+  pageSize:
+    name: pageSize
+    in: query
+    description: Number of items returned
+    type: integer
+    required: false
+    default: 3
+  pageNumber:
+    name: pageNumber
+    in: query
+    description: Page number
+    type: integer
+    required: false
+    default: 1
+
+definitions:
+  Preference:
+    type: object
+    properties:
+      where:
+        type: string
+        description: whether sports is preferred outside or not
+      what:
+        type: string
+        description: fitness or crossfit or ...
+  PointOfInterest:
+    type: object
+    properties:
+      lat:
+        type: number
+        format: float
+      lon:
+        type: number
+        format: float
+      category:
+        type: string
+      name:
+        type: string
+  Location:
+    type: object
+    properties:
+      center_lat:
+        type: number
+        format: float
+      center_lon:
+        type: number
+        format: float
+      radius:
+        type: integer
+      poi:
+        type: array
+        items:
+          $ref: "#/definitions/PointOfInterest"
+  Locations:
+    type: array
+    items:
+      $ref: "#/definitions/Location"
+
+  Error:
+    properties:
+      code:
+        type: integer
+      message:
+        type: string
+
+responses:
+  UserCar400ErrorResponse:
+    description: Request was invalid.
+    schema:
+      $ref: '#/definitions/Error'
+
+
+
+

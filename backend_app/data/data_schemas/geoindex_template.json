@@ -1,0 +1,62 @@
+//PUT _template/hacklikeagirl_geoindex
+{
+  "template": "hacklikeagirl_geoindex*",
+  "mappings": {
+    "place": {
+      "properties": {
+        "location": {
+          "type": "geo_point",
+          "lat_lon": true
+        },
+        "bodybuilding": {
+          "type": "integer"
+        },
+        "paleo": {
+          "type": "integer"
+        },
+        "crossfit": {
+          "type": "integer"
+        },
+        "yoga": {
+          "type": "integer"
+        },
+        "schwimmen": {
+          "type": "integer"
+        },
+        "health": {
+          "type": "integer"
+        },
+        "vegan": {
+          "type": "integer"
+        },
+        "homeopathy": {
+          "type": "integer"
+        },
+        "outdoor": {
+          "type": "integer"
+        },
+        "kampfsport": {
+          "type": "integer"
+        },
+        "overall": {
+          "type": "integer"
+        },
+        "fitness": {
+          "type": "integer"
+        },
+        "orthopedy": {
+          "type": "integer"
+        },
+        "skin": {
+          "type": "integer"
+        },
+        "vegetarisch": {
+          "type": "integer"
+        },
+        "klettern": {
+          "type": "integer"
+        }
+      }
+    }
+  }
+}

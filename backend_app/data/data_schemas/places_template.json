@@ -1,0 +1,102 @@
+//PUT _template/hacklikeagirl_places
+{
+  "template": "hacklikeagirl_place*",
+  "settings": {
+    "analysis": {
+      "filter": {
+        "places_stem": {
+          "type": "stemmer",
+          "language": "light_german"
+        }
+      },
+      "analyzer": {
+        "places_light": {
+          "filter": [
+            "lowercase",
+            "places_stem"
+          ],
+          "tokenizer": "whitespace"
+        }
+      }
+    }
+  },
+  "mappings": {
+    "place": {
+      "dynamic_templates": [
+        {
+          "strings_to_analyze": {
+            "mapping": {
+              "analyzer": "places_light",
+              "index": "analyzed",
+              "type": "string",
+              "fields": {
+                "raw": {
+                  "index": "not_analyzed",
+                  "type": "string"
+                }
+              }
+            },
+            "match_pattern": "regex",
+            "path_match": "name|vicinity"
+          }
+        },
+        {
+          "strings_not_to_analyze": {
+            "mapping": {
+              "index": "not_analyzed",
+              "doc_values": true,
+              "type": "string"
+            },
+            "match_pattern": "regex",
+            "path_match": "id|place_id"
+          }
+        },
+        {
+          "integers": {
+            "mapping": {
+              "type": "integer",
+              "doc_values": true
+            },
+            "match": "*",
+            "match_mapping_type": "integer"
+          }
+        },
+        {
+          "doubles": {
+            "mapping": {
+              "type": "double",
+              "doc_values": true
+            },
+            "match": "*",
+            "match_mapping_type": "double"
+          }
+        }
+      ],
+      "properties": {
+        "geometry": {
+          "properties": {
+            "location": {
+              "type": "geo_point",
+              "lat_lon": true
+            },
+            "viewport": {
+              "properties": {
+                "northeast": {
+                  "type": "geo_point",
+                  "lat_lon": true
+                },
+                "southwest": {
+                  "type": "geo_point",
+                  "lat_lon": true
+                }
+              }
+            }
+          }
+        },
+        "rating": {
+          "type": "double"
+        }
+      }
+    }
+  }
+}
