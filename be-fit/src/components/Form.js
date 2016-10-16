@@ -26,6 +26,10 @@ var Form = React.createClass({
         console.log('send form');
     },
 
+    handleSelect: function(value) {
+        console.log('select value from the dropdown:', value);
+    }
+
     sendFormData: function () {
         // Fetch form values.
         var formData = {
@@ -33,6 +37,10 @@ var Form = React.createClass({
         };
 
         console.log(formData);
+
+        //make an ajax request here to call the api
+        //use componentDidUpdate function to make sure the updated api changes are reflected, either here or in the parent component.
+        //that's the ideal workflow
     },
     render: function () {
         return (
@@ -40,7 +48,7 @@ var Form = React.createClass({
                 <h2>Search for a place fits you best in your city</h2>
                 <div className="form-group">
                     <div className="col-sm-6">
-                        <Activities ref="activity" label="What is your favorite sports?"/>
+                        <Activities ref="activity" label="What is your favorite sports?" onSelect={this.handleSelect}/>
                     </div>
                     <div className="col-sm-6">
                         <OutdoorIndoor ref="outdoor_indoor" label="How crazy are you about outdoor?"/>
