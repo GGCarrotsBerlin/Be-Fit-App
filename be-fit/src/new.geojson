@@ -9,29 +9,89 @@
     {
       "geometry": {
         "coordinates": [
-          13.5514422, 
-          52.58183419999999
+          13.3475749, 
+          52.5486574
         ], 
         "type": "Point"
       }, 
       "properties": {
-        "LINE": "park", 
-        "NAME": "Falkenberger Rieselfelder", 
-        "SCORE": 4.7
+        "LINE": "vegan", 
+        "NAME": "Neon Toaster", 
+        "SCORE": 5
       }, 
       "type": "Feature"
     }, 
     {
       "geometry": {
         "coordinates": [
-          13.4088899, 
-          52.5761277
+          13.3650342, 
+          52.54332989999999
         ], 
         "type": "Point"
       }, 
       "properties": {
-        "LINE": "park", 
-        "NAME": "Schloss Park", 
+        "LINE": "vegan", 
+        "NAME": "Falafel Dream 2010", 
+        "SCORE": 4.9
+      }, 
+      "type": "Feature"
+    }, 
+    {
+      "geometry": {
+        "coordinates": [
+          13.3726048, 
+          52.54456459999999
+        ], 
+        "type": "Point"
+      }, 
+      "properties": {
+        "LINE": "gym", 
+        "NAME": "CrossFit Werk UG", 
+        "SCORE": 4.8
+      }, 
+      "type": "Feature"
+    }, 
+    {
+      "geometry": {
+        "coordinates": [
+          13.4195531, 
+          52.54147390000001
+        ], 
+        "type": "Point"
+      }, 
+      "properties": {
+        "LINE": "vegan", 
+        "NAME": "h\u00e4ppies", 
+        "SCORE": 4.8
+      }, 
+      "type": "Feature"
+    }, 
+    {
+      "geometry": {
+        "coordinates": [
+          13.4057961, 
+          52.5466998
+        ], 
+        "type": "Point"
+      }, 
+      "properties": {
+        "LINE": "vegan", 
+        "NAME": "Song Nguu \"Wasserb\u00fcffel\"", 
+        "SCORE": 4.8
+      }, 
+      "type": "Feature"
+    }, 
+    {
+      "geometry": {
+        "coordinates": [
+          13.4148709, 
+          52.5431998
+        ], 
+        "type": "Point"
+      }, 
+      "properties": {
+        "LINE": "vegan", 
+        "NAME": "Suzette cr\u00eaperie", 
         "SCORE": 4.6
       }, 
       "type": "Feature"
@@ -39,14 +99,29 @@
     {
       "geometry": {
         "coordinates": [
-          13.413982, 
-          52.591561
+          13.202995, 
+          52.546321
         ], 
         "type": "Point"
       }, 
       "properties": {
-        "LINE": "park", 
-        "NAME": "Arbeitsbedarf24", 
+        "LINE": "vegan", 
+        "NAME": "Mehek - Indisches Restaurant", 
+        "SCORE": 4.5
+      }, 
+      "type": "Feature"
+    }, 
+    {
+      "geometry": {
+        "coordinates": [
+          13.416665, 
+          52.543769
+        ], 
+        "type": "Point"
+      }, 
+      "properties": {
+        "LINE": "vegan", 
+        "NAME": "Hum vegan cuisine", 
         "SCORE": 4.4
       }, 
       "type": "Feature"
@@ -54,29 +129,104 @@
     {
       "geometry": {
         "coordinates": [
-          13.4049189, 
-          52.5848482
+          13.4142697, 
+          52.54264269999999
         ], 
         "type": "Point"
       }, 
       "properties": {
-        "LINE": "park", 
-        "NAME": "Brosepark", 
-        "SCORE": 4.2
+        "LINE": "vegan", 
+        "NAME": "Majas", 
+        "SCORE": 4.4
       }, 
       "type": "Feature"
     }, 
     {
       "geometry": {
         "coordinates": [
-          13.3450773, 
-          52.57744599999999
+          13.357426, 
+          52.541866
         ], 
         "type": "Point"
       }, 
       "properties": {
-        "LINE": "park", 
-        "NAME": "Kienhorst Park", 
+        "LINE": "vegan", 
+        "NAME": "Naveena Path", 
+        "SCORE": 4.3
+      }, 
+      "type": "Feature"
+    }, 
+    {
+      "geometry": {
+        "coordinates": [
+          13.423134, 
+          52.54421479999999
+        ], 
+        "type": "Point"
+      }, 
+      "properties": {
+        "LINE": "vegan", 
+        "NAME": "Berliner Feinkost Fraktion", 
+        "SCORE": 4.3
+      }, 
+      "type": "Feature"
+    }, 
+    {
+      "geometry": {
+        "coordinates": [
+          13.4115869, 
+          52.5505911
+        ], 
+        "type": "Point"
+      }, 
+      "properties": {
+        "LINE": "vegan", 
+        "NAME": "Dirty Harry's", 
+        "SCORE": 4.1
+      }, 
+      "type": "Feature"
+    }, 
+    {
+      "geometry": {
+        "coordinates": [
+          13.352171, 
+          52.53981700000001
+        ], 
+        "type": "Point"
+      }, 
+      "properties": {
+        "LINE": "vegan", 
+        "NAME": "Gastst\u00e4tte Deichgraf", 
+        "SCORE": 4
+      }, 
+      "type": "Feature"
+    }, 
+    {
+      "geometry": {
+        "coordinates": [
+          13.20551, 
+          52.54208
+        ], 
+        "type": "Point"
+      }, 
+      "properties": {
+        "LINE": "vegan", 
+        "NAME": "Conti Grillstation", 
+        "SCORE": 4
+      }, 
+      "type": "Feature"
+    }, 
+    {
+      "geometry": {
+        "coordinates": [
+          13.41965, 
+          52.54063
+        ], 
+        "type": "Point"
+      }, 
+      "properties": {
+        "LINE": "vegan", 
+        "NAME": "Hans Wurst vegan cafe", 
         "SCORE": 3.9
       }, 
       "type": "Feature"
@@ -84,29 +234,74 @@
     {
       "geometry": {
         "coordinates": [
-          13.4011585, 
-          52.5719838
+          13.4141422, 
+          52.54734289999999
         ], 
         "type": "Point"
       }, 
       "properties": {
-        "LINE": "health", 
-        "NAME": "Heilpraxis Claudia Kurtzrock", 
-        "SCORE": 0
+        "LINE": "vegan", 
+        "NAME": "Chay Umi - Veganes Restaurant Prenzlauer Berg", 
+        "SCORE": 3.9
       }, 
       "type": "Feature"
     }, 
     {
       "geometry": {
         "coordinates": [
-          13.41156, 
-          52.57315999999999
+          13.3548348, 
+          52.54455950000001
+        ], 
+        "type": "Point"
+      }, 
+      "properties": {
+        "LINE": "vegan", 
+        "NAME": "Mensa Beuth HS Luxemburger Stra\u00dfe", 
+        "SCORE": 3.8
+      }, 
+      "type": "Feature"
+    }, 
+    {
+      "geometry": {
+        "coordinates": [
+          13.3969999, 
+          52.5797363
         ], 
         "type": "Point"
       }, 
       "properties": {
         "LINE": "doctor", 
-        "NAME": "Dr. med. Astrid Beutel, \u00c4rztin f\u00fcr Hom\u00f6opathie", 
+        "NAME": "Dr.med. Gabriele Herrmann Fach\u00e4rztin f\u00fcr Orthop\u00e4die", 
+        "SCORE": 3.8
+      }, 
+      "type": "Feature"
+    }, 
+    {
+      "geometry": {
+        "coordinates": [
+          13.211944, 
+          52.5462861
+        ], 
+        "type": "Point"
+      }, 
+      "properties": {
+        "LINE": "vegan", 
+        "NAME": "Raymons - Das Fischrestaurant", 
+        "SCORE": 3.7
+      }, 
+      "type": "Feature"
+    }, 
+    {
+      "geometry": {
+        "coordinates": [
+          13.3875196, 
+          52.5498085
+        ], 
+        "type": "Point"
+      }, 
+      "properties": {
+        "LINE": "vegan", 
+        "NAME": "immergr\u00fcn", 
         "SCORE": 0
       }, 
       "type": "Feature"
@@ -114,14 +309,74 @@
     {
       "geometry": {
         "coordinates": [
-          13.4027141, 
-          52.58094599999999
+          13.39636, 
+          52.57614
+        ], 
+        "type": "Point"
+      }, 
+      "properties": {
+        "LINE": "doctor", 
+        "NAME": "Orthop\u00e4dische Praxis Lurtz", 
+        "SCORE": 0
+      }, 
+      "type": "Feature"
+    }, 
+    {
+      "geometry": {
+        "coordinates": [
+          13.332, 
+          52.56211
+        ], 
+        "type": "Point"
+      }, 
+      "properties": {
+        "LINE": "doctor", 
+        "NAME": "Praxis f\u00fcr Orthop\u00e4die", 
+        "SCORE": 0
+      }, 
+      "type": "Feature"
+    }, 
+    {
+      "geometry": {
+        "coordinates": [
+          13.4113682, 
+          52.5674237
+        ], 
+        "type": "Point"
+      }, 
+      "properties": {
+        "LINE": "doctor", 
+        "NAME": "Orthop\u00e4die am Garb\u00e1typlatz", 
+        "SCORE": 0
+      }, 
+      "type": "Feature"
+    }, 
+    {
+      "geometry": {
+        "coordinates": [
+          13.41108, 
+          52.56915
+        ], 
+        "type": "Point"
+      }, 
+      "properties": {
+        "LINE": "doctor", 
+        "NAME": "Paschotka / Orthop\u00e4dische Schuhe - Britta Boog", 
+        "SCORE": 0
+      }, 
+      "type": "Feature"
+    }, 
+    {
+      "geometry": {
+        "coordinates": [
+          13.38217, 
+          52.55362
         ], 
         "type": "Point"
       }, 
       "properties": {
         "LINE": "health", 
-        "NAME": "Heilpraktikerin Katharina Gnidtke", 
+        "NAME": "Hempel Orthop\u00e4die Technik GmbH", 
         "SCORE": 0
       }, 
       "type": "Feature"
@@ -129,14 +384,14 @@
     {
       "geometry": {
         "coordinates": [
-          13.4108594, 
-          52.57605590000001
+          13.3286277, 
+          52.5647143
         ], 
         "type": "Point"
       }, 
       "properties": {
-        "LINE": "health", 
-        "NAME": "Heilpraktiker f\u00fcr Psychotherapie Johannes Dulig", 
+        "LINE": "doctor", 
+        "NAME": "Angelika Thiele-Steffen Fach\u00e4rztin f\u00fcr Orthop\u00e4die", 
         "SCORE": 0
       }, 
       "type": "Feature"
@@ -144,14 +399,14 @@
     {
       "geometry": {
         "coordinates": [
-          13.4102992, 
-          52.5741238
+          13.368682, 
+          52.5609695
         ], 
         "type": "Point"
       }, 
       "properties": {
-        "LINE": "health", 
-        "NAME": "Heilpraktikerin Andrea Rau", 
+        "LINE": "doctor", 
+        "NAME": "Dr.med. J\u00fcrgen Schunder Facharzt f\u00fcr Orthop\u00e4die", 
         "SCORE": 0
       }, 
       "type": "Feature"
@@ -159,14 +414,14 @@
     {
       "geometry": {
         "coordinates": [
-          13.4008613, 
-          52.5772144
+          13.3966872, 
+          52.5760027
         ], 
         "type": "Point"
       }, 
       "properties": {
-        "LINE": "gym", 
-        "NAME": "Sattva Yoga Berlin", 
+        "LINE": "doctor", 
+        "NAME": "Orthop.Praxis B-H Lurtz,Orthop\u00e4die Pankow,Privatpraxis f\u00fcr ganzheitliche Orthop\u00e4die", 
         "SCORE": 0
       }, 
       "type": "Feature"
@@ -174,14 +429,14 @@
     {
       "geometry": {
         "coordinates": [
-          13.4008613, 
-          52.5772144
+          13.38022, 
+          52.55304
         ], 
         "type": "Point"
       }, 
       "properties": {
-        "LINE": "health", 
-        "NAME": "Heilpraktikerin Pankow - Simone Schuck-Giesinger", 
+        "LINE": "doctor", 
+        "NAME": "Karabacak, Ali Ahmet \u00c4rzte f\u00fcr Orthop\u00e4die", 
         "SCORE": 0
       }, 
       "type": "Feature"
@@ -189,14 +444,14 @@
     {
       "geometry": {
         "coordinates": [
-          13.4185323, 
-          52.5802852
+          13.32492, 
+          52.56458999999999
         ], 
         "type": "Point"
       }, 
       "properties": {
-        "LINE": "park", 
-        "NAME": "Kleingartenanlage Sch\u00fcssler e.V.", 
+        "LINE": "doctor", 
+        "NAME": "Dr. med. A. Paraskevaidis, Facharzt f\u00fcr Orthop\u00e4die und Unfallchirurgie", 
         "SCORE": 0
       }, 
       "type": "Feature"
@@ -204,14 +459,14 @@
     {
       "geometry": {
         "coordinates": [
-          13.5666547, 
-          52.5802562
+          13.3688728, 
+          52.54157290000001
         ], 
         "type": "Point"
       }, 
       "properties": {
-        "LINE": "health", 
-        "NAME": "Heilpraktikerin", 
+        "LINE": "doctor", 
+        "NAME": "A.A. Isavand Facharzt f\u00fcr Orthop\u00e4die und Unfallchirugie, D-Unfallarzt, Sportmedizin, Akupunktur", 
         "SCORE": 0
       }, 
       "type": "Feature"
@@ -219,14 +474,14 @@
     {
       "geometry": {
         "coordinates": [
-          13.5666547, 
-          52.5802562
+          13.216193, 
+          52.564591
         ], 
         "type": "Point"
       }, 
       "properties": {
-        "LINE": "physiotherapist", 
-        "NAME": "Heilpraxis Fr\u00f6hner", 
+        "LINE": "vegan", 
+        "NAME": "Mondo Pasta GmbH", 
         "SCORE": 0
       }, 
       "type": "Feature"
@@ -234,14 +489,14 @@
     {
       "geometry": {
         "coordinates": [
-          13.57221, 
-          52.57488
+          13.2102896, 
+          52.5465704
         ], 
         "type": "Point"
       }, 
       "properties": {
-        "LINE": "gym", 
-        "NAME": "Balance Yoga Ahrensfelde", 
+        "LINE": "vegan", 
+        "NAME": "Restaurant Kochkunst im centrovital Hotel", 
         "SCORE": 0
       }, 
       "type": "Feature"
@@ -249,14 +504,14 @@
     {
       "geometry": {
         "coordinates": [
-          13.57097, 
-          52.57067
+          13.2724, 
+          52.59186
         ], 
         "type": "Point"
       }, 
       "properties": {
-        "LINE": "gym", 
-        "NAME": "Hatha Yoga Sandro", 
+        "LINE": "doctor", 
+        "NAME": "Dr.med. Arnold Hensel Facharzt f\u00fcr Orthop\u00e4die", 
         "SCORE": 0
       }, 
       "type": "Feature"
@@ -264,14 +519,14 @@
     {
       "geometry": {
         "coordinates": [
-          13.3659009, 
-          52.58474160000001
+          13.20782, 
+          52.55012
         ], 
         "type": "Point"
       }, 
       "properties": {
-        "LINE": "gym", 
-        "NAME": "yoga raum", 
+        "LINE": "hospital", 
+        "NAME": "Vivantes Klinikum Spandau Klinik f\u00fcr Unfallchirurgie und Orthop\u00e4die", 
         "SCORE": 0
       }, 
       "type": "Feature"
@@ -279,14 +534,14 @@
     {
       "geometry": {
         "coordinates": [
-          13.36687, 
-          52.58602
+          13.4211707, 
+          52.54317289999999
         ], 
         "type": "Point"
       }, 
       "properties": {
-        "LINE": "health", 
-        "NAME": "Heilpraktikerin Katrin Wolf", 
+        "LINE": "vegan", 
+        "NAME": "Chay Asia", 
         "SCORE": 0
       }, 
       "type": "Feature"
@@ -294,14 +549,14 @@
     {
       "geometry": {
         "coordinates": [
-          13.3432, 
-          52.58369
+          13.42925, 
+          52.55191000000001
         ], 
         "type": "Point"
       }, 
       "properties": {
-        "LINE": "park", 
-        "NAME": "Bezirksverband der Kleing\u00e4rtner Reinickendorf e.V.", 
+        "LINE": "vegan", 
+        "NAME": "Hallo Pizza Berlin-Prenzlauer Berg", 
         "SCORE": 0
       }, 
       "type": "Feature"
@@ -309,14 +564,29 @@
     {
       "geometry": {
         "coordinates": [
-          13.3457175, 
-          52.582726
+          13.4063469, 
+          52.5469059
         ], 
         "type": "Point"
       }, 
       "properties": {
-        "LINE": "park", 
-        "NAME": "Dauerkleingarten-Verein Trockendorf e.V.", 
+        "LINE": "vegan", 
+        "NAME": "Pizzeria Rocca", 
+        "SCORE": 0
+      }, 
+      "type": "Feature"
+    }, 
+    {
+      "geometry": {
+        "coordinates": [
+          13.422726, 
+          52.561305
+        ], 
+        "type": "Point"
+      }, 
+      "properties": {
+        "LINE": "doctor", 
+        "NAME": "Orthop\u00e4dische Gemeinschaftspraxis Dipl.-Med. Ulf Mohnke & Dipl.-Med. Felix Kirsch", 
         "SCORE": 0
       }, 
       "type": "Feature"

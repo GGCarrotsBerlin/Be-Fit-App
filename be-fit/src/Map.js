@@ -229,7 +229,7 @@ class Map extends Component {
 
         // assemble the HTML for the markers' popups (Leaflet's bindPopup method doesn't accept React JSX)
         const popupContent = `<h3>${feature.properties.NAME}</h3>
-          <strong>Access to MTA lines: </strong>${feature.properties.LINE}`;
+          <strong>Keywords: </strong>${feature.properties.LINE}`;
 
         // add our popups
         layer.bindPopup(popupContent);
