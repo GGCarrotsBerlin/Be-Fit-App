@@ -1,0 +1,326 @@
+{
+  "crs": {
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }, 
+    "type": "name"
+  }, 
+  "features": [
+    {
+      "geometry": {
+        "coordinates": [
+          13.5514422, 
+          52.58183419999999
+        ], 
+        "type": "Point"
+      }, 
+      "properties": {
+        "LINE": "park", 
+        "NAME": "Falkenberger Rieselfelder", 
+        "SCORE": 4.7
+      }, 
+      "type": "Feature"
+    }, 
+    {
+      "geometry": {
+        "coordinates": [
+          13.4088899, 
+          52.5761277
+        ], 
+        "type": "Point"
+      }, 
+      "properties": {
+        "LINE": "park", 
+        "NAME": "Schloss Park", 
+        "SCORE": 4.6
+      }, 
+      "type": "Feature"
+    }, 
+    {
+      "geometry": {
+        "coordinates": [
+          13.413982, 
+          52.591561
+        ], 
+        "type": "Point"
+      }, 
+      "properties": {
+        "LINE": "park", 
+        "NAME": "Arbeitsbedarf24", 
+        "SCORE": 4.4
+      }, 
+      "type": "Feature"
+    }, 
+    {
+      "geometry": {
+        "coordinates": [
+          13.4049189, 
+          52.5848482
+        ], 
+        "type": "Point"
+      }, 
+      "properties": {
+        "LINE": "park", 
+        "NAME": "Brosepark", 
+        "SCORE": 4.2
+      }, 
+      "type": "Feature"
+    }, 
+    {
+      "geometry": {
+        "coordinates": [
+          13.3450773, 
+          52.57744599999999
+        ], 
+        "type": "Point"
+      }, 
+      "properties": {
+        "LINE": "park", 
+        "NAME": "Kienhorst Park", 
+        "SCORE": 3.9
+      }, 
+      "type": "Feature"
+    }, 
+    {
+      "geometry": {
+        "coordinates": [
+          13.4011585, 
+          52.5719838
+        ], 
+        "type": "Point"
+      }, 
+      "properties": {
+        "LINE": "health", 
+        "NAME": "Heilpraxis Claudia Kurtzrock", 
+        "SCORE": 0
+      }, 
+      "type": "Feature"
+    }, 
+    {
+      "geometry": {
+        "coordinates": [
+          13.41156, 
+          52.57315999999999
+        ], 
+        "type": "Point"
+      }, 
+      "properties": {
+        "LINE": "doctor", 
+        "NAME": "Dr. med. Astrid Beutel, \u00c4rztin f\u00fcr Hom\u00f6opathie", 
+        "SCORE": 0
+      }, 
+      "type": "Feature"
+    }, 
+    {
+      "geometry": {
+        "coordinates": [
+          13.4027141, 
+          52.58094599999999
+        ], 
+        "type": "Point"
+      }, 
+      "properties": {
+        "LINE": "health", 
+        "NAME": "Heilpraktikerin Katharina Gnidtke", 
+        "SCORE": 0
+      }, 
+      "type": "Feature"
+    }, 
+    {
+      "geometry": {
+        "coordinates": [
+          13.4108594, 
+          52.57605590000001
+        ], 
+        "type": "Point"
+      }, 
+      "properties": {
+        "LINE": "health", 
+        "NAME": "Heilpraktiker f\u00fcr Psychotherapie Johannes Dulig", 
+        "SCORE": 0
+      }, 
+      "type": "Feature"
+    }, 
+    {
+      "geometry": {
+        "coordinates": [
+          13.4102992, 
+          52.5741238
+        ], 
+        "type": "Point"
+      }, 
+      "properties": {
+        "LINE": "health", 
+        "NAME": "Heilpraktikerin Andrea Rau", 
+        "SCORE": 0
+      }, 
+      "type": "Feature"
+    }, 
+    {
+      "geometry": {
+        "coordinates": [
+          13.4008613, 
+          52.5772144
+        ], 
+        "type": "Point"
+      }, 
+      "properties": {
+        "LINE": "gym", 
+        "NAME": "Sattva Yoga Berlin", 
+        "SCORE": 0
+      }, 
+      "type": "Feature"
+    }, 
+    {
+      "geometry": {
+        "coordinates": [
+          13.4008613, 
+          52.5772144
+        ], 
+        "type": "Point"
+      }, 
+      "properties": {
+        "LINE": "health", 
+        "NAME": "Heilpraktikerin Pankow - Simone Schuck-Giesinger", 
+        "SCORE": 0
+      }, 
+      "type": "Feature"
+    }, 
+    {
+      "geometry": {
+        "coordinates": [
+          13.4185323, 
+          52.5802852
+        ], 
+        "type": "Point"
+      }, 
+      "properties": {
+        "LINE": "park", 
+        "NAME": "Kleingartenanlage Sch\u00fcssler e.V.", 
+        "SCORE": 0
+      }, 
+      "type": "Feature"
+    }, 
+    {
+      "geometry": {
+        "coordinates": [
+          13.5666547, 
+          52.5802562
+        ], 
+        "type": "Point"
+      }, 
+      "properties": {
+        "LINE": "health", 
+        "NAME": "Heilpraktikerin", 
+        "SCORE": 0
+      }, 
+      "type": "Feature"
+    }, 
+    {
+      "geometry": {
+        "coordinates": [
+          13.5666547, 
+          52.5802562
+        ], 
+        "type": "Point"
+      }, 
+      "properties": {
+        "LINE": "physiotherapist", 
+        "NAME": "Heilpraxis Fr\u00f6hner", 
+        "SCORE": 0
+      }, 
+      "type": "Feature"
+    }, 
+    {
+      "geometry": {
+        "coordinates": [
+          13.57221, 
+          52.57488
+        ], 
+        "type": "Point"
+      }, 
+      "properties": {
+        "LINE": "gym", 
+        "NAME": "Balance Yoga Ahrensfelde", 
+        "SCORE": 0
+      }, 
+      "type": "Feature"
+    }, 
+    {
+      "geometry": {
+        "coordinates": [
+          13.57097, 
+          52.57067
+        ], 
+        "type": "Point"
+      }, 
+      "properties": {
+        "LINE": "gym", 
+        "NAME": "Hatha Yoga Sandro", 
+        "SCORE": 0
+      }, 
+      "type": "Feature"
+    }, 
+    {
+      "geometry": {
+        "coordinates": [
+          13.3659009, 
+          52.58474160000001
+        ], 
+        "type": "Point"
+      }, 
+      "properties": {
+        "LINE": "gym", 
+        "NAME": "yoga raum", 
+        "SCORE": 0
+      }, 
+      "type": "Feature"
+    }, 
+    {
+      "geometry": {
+        "coordinates": [
+          13.36687, 
+          52.58602
+        ], 
+        "type": "Point"
+      }, 
+      "properties": {
+        "LINE": "health", 
+        "NAME": "Heilpraktikerin Katrin Wolf", 
+        "SCORE": 0
+      }, 
+      "type": "Feature"
+    }, 
+    {
+      "geometry": {
+        "coordinates": [
+          13.3432, 
+          52.58369
+        ], 
+        "type": "Point"
+      }, 
+      "properties": {
+        "LINE": "park", 
+        "NAME": "Bezirksverband der Kleing\u00e4rtner Reinickendorf e.V.", 
+        "SCORE": 0
+      }, 
+      "type": "Feature"
+    }, 
+    {
+      "geometry": {
+        "coordinates": [
+          13.3457175, 
+          52.582726
+        ], 
+        "type": "Point"
+      }, 
+      "properties": {
+        "LINE": "park", 
+        "NAME": "Dauerkleingarten-Verein Trockendorf e.V.", 
+        "SCORE": 0
+      }, 
+      "type": "Feature"
+    }
+  ], 
+  "type": "FeatureCollection"
+}

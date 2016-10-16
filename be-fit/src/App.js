@@ -7,6 +7,7 @@ import OutdoorIndoor from './components/OutdoorIndoor';
 import Food from './components/Food';
 import Health from './components/Health';
 
+
 class App extends Component {
     constructor() {
         super();

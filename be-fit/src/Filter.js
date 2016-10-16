@@ -11,9 +11,9 @@ export default (props) => {
   return (
     <div className="filterSubwayLines">
       <hr/>
-      <h3>Brooklyn Subway Entrances</h3>
-      <p>A <a href="http://leafletjs.com/">Leaflet</a> &amp; <a href="https://facebook.github.io/react/">React</a> demo</p>
-      <p>Filter Entrances by Subway Line</p>
+      <h3>beFIT Berlin Healht Index</h3>
+      <p>What are your favorite spots?</p>
+      <p>Filter by kind of location</p>
       <select defaultValue="*"
         type="select"
         name="filterlines"
