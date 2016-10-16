@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import logo from './sun_yoga.png';
+import logo from './beFIT_logo.png';
 import './App.css';
 import Map from './Map';
 
