@@ -37,8 +37,7 @@ var FoodField = React.createClass({
                 <label className="select-label">{this.props.label}</label>
                 <Select ref="stateSelect" autofocus options={options} simpleValue clearable={this.state.clearable}
                         name="selected-food" disabled={this.state.disabled} value={this.state.selectValue}
-                        onChange={this.props.onSelect}/>
-
+                        onChange={this.updateValue}/>
             </div>
         );
     }
