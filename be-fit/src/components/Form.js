@@ -14,7 +14,8 @@ var Form = React.createClass({
     getInitialState: function() {
         return {
             type: 'info',
-            message: ''
+            message: '',
+            activity: null
         };
     },
 
@@ -28,12 +29,15 @@ var Form = React.createClass({
 
     handleSelect: function(value) {
         console.log('select value from the dropdown:', value);
+        this.setState({
+            activity: value
+        });
     }
 
     sendFormData: function () {
         // Fetch form values.
         var formData = {
-
+            activity: this.state.activity
         };
 
         console.log(formData);
