@@ -36,7 +36,7 @@ var OutdoorIndoorField = React.createClass({
                 <label className="select-label">{this.props.label}</label>
                 <Select ref="stateSelect" autofocus options={options} simpleValue clearable={this.state.clearable}
                         name="selected-state" disabled={this.state.disabled} value={this.state.selectValue}
-                        onChange={this.updateValue} searchable={this.state.searchable} />
+                        onChange={this.props.onSelect} />
 
             </div>
         );

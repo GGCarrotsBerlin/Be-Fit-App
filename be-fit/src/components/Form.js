@@ -14,7 +14,9 @@ var Form = React.createClass({
     getInitialState: function() {
         return {
             type: 'info',
-            message: ''
+            message: '',
+            activity: null,
+            food: null
         };
     },
 
@@ -24,22 +26,46 @@ var Form = React.createClass({
         this.setState({ type: 'info', message: 'Sending...' }, this.sendFormData);
 
         console.log('send form');
+
     },
 
     handleSelect: function(value) {
-        console.log('select value from the dropdown:', value);
-    }
+        console.log(value);
+        this.setState({
+            value: value,
+            food: value
+        });
+
+    },
 
     sendFormData: function () {
         // Fetch form values.
         var formData = {
-
+            activity: this.state.activity,
+            food: this.state.food
         };
 
-        console.log(formData);
+       console.log(formData);
 
+        /*fetch('http://192.168.194.48:5050/1210/recommended_locations', {
+            method: 'POST',
+            headers: {
+                'Accept': 'application/json',
+                'Content-Type': 'application/json'
+            }
+        })*/
+
+       /* componentDidUpdate(prevProps, prevState) {
+            // only update if the data has changed
+            if (prevProps.data !== this.props.data) {
+                this.handleSubmit = load({
+                    data: this.props.data
+                });
+            }
+        },*/
         //make an ajax request here to call the api
-        //use componentDidUpdate function to make sure the updated api changes are reflected, either here or in the parent component.
+        //use componentDidUpdate function to make sure the updated
+        //api changes are reflected, either here or in the parent component.
         //that's the ideal workflow
     },
     render: function () {
@@ -48,19 +74,19 @@ var Form = React.createClass({
                 <h2>Search for a place fits you best in your city</h2>
                 <div className="form-group">
                     <div className="col-sm-6">
-                        <Activities ref="activity" label="What is your favorite sports?" onSelect={this.handleSelect}/>
+                        <Activities label="What is your favorite sports?" onSelect={this.handleSelect}/>
                     </div>
                     <div className="col-sm-6">
-                        <OutdoorIndoor ref="outdoor_indoor" label="How crazy are you about outdoor?"/>
+                        <OutdoorIndoor label="How crazy are you about outdoor?" onSelect={this.handleSelect}/>
                     </div>
                 </div>
                 <div className="form-group">
 
                     <div className="col-sm-6">
-                        <Food label="Are you a food nerd?"/>
+                        <Food label="Are you a food nerd?" onSelect={this.handleSelect}/>
                     </div>
                     <div className="col-sm-6">
-                        <Health label="Your most important medical care"/>
+                        <Health label="Your most important medical care" onSelect={this.handleSelect}/>
                     </div>
                 </div>
 

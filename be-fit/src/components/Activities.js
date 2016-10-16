@@ -17,7 +17,7 @@ var ActivitiesField = React.createClass({
     },
     getDefaultProps () {
         return {
-            label: 'What is your favorite sports?'
+            label: 'Sport'
         };
     },
     getInitialState () {
@@ -27,20 +27,13 @@ var ActivitiesField = React.createClass({
             clearable: true
         };
     },
-
-    updateValue (newValue) {
-        console.log('State changed to ' + newValue);
-        this.setState({
-            selectValue: newValue
-        });
-    },
     render () {
         var options = ACTIVITIES;
         return (
             <div className="section">
                 <label className="select-label">{this.props.label}</label>
                 <Select ref="activitiesSelect" autofocus options={options} simpleValue clearable={this.state.clearable}
-                        name="selected-activity" disabled={this.state.disabled} value={this.state.selectValue}
+                        name={this.props.label} disabled={this.state.disabled} value={this.state.selectValue}
                         onChange={this.props.onSelect}/>
 
             </div>
