@@ -2,8 +2,8 @@ swagger: '2.0'
 
 info:
   version: "1.0.0"
-  title: ToBeDefined
-  description: ToBeDefined
+  title: beFIT
+  description: beFIT is your personalised health index to navigate the city of Berlin.
 
 host: "192.168.194.48:5050"
 schemes: ["http"]
@@ -14,13 +14,13 @@ produces:
 - application/json
 
 paths:
-  /recommended_locations:
+  /{preference_code}/recommended_locations:
     post:
       summary: Gets locations recommended for a user
       description: |
         Gets recommended locations based on users preferences regarding helath and fitness
       parameters:
-        - $ref: '#/parameters/pageSize'
+        - $ref: '#/parameters/preferenceCode'
         - name: Preferences
           in: body
           description: User's preferences
@@ -37,26 +37,18 @@ paths:
           description: 'Requested objects could not be found. More information in accompanying message.'
 
 parameters:
-  pageSize:
-    name: pageSize
+  preferenceCode:
+    name: preferenceCode
     in: query
-    description: Number of items returned
-    type: integer
-    required: false
-    default: 3
-  pageNumber:
-    name: pageNumber
-    in: query
-    description: Page number
-    type: integer
-    required: false
-    default: 1
+    description: Preferences of the user regarding health and fitness
+    type: string
+    required: true
 
 definitions:
   Preference:
     type: object
     properties:
-      where:
+      crs:
         type: string
         description: whether sports is preferred outside or not
       what:
